@@ -1,0 +1,12 @@
+[16-Oct-2025 20:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Automatic_Updater::is_allowed_dir() in /Users/fredrevillon/Local Sites/planty-main/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:242
+Stack trace:
+#0 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php(36): WP_Site_Health_Auto_Updates->test_vcs_abspath()
+#1 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-admin/includes/class-wp-site-health.php(1841): WP_Site_Health_Auto_Updates->run_tests()
+#2 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-admin/includes/class-wp-site-health.php(194): WP_Site_Health->get_test_background_updates()
+#3 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-admin/includes/class-wp-site-health.php(3054): WP_Site_Health->perform_test(Array)
+#4 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-includes/class-wp-hook.php(308): WP_Site_Health->wp_cron_scheduled_check()
+#5 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/fredrevillon/Local Sites/planty-main/app/public/wp-cron.php(188): do_action_ref_array('wp_site_health_...', Array)
+#8 {main}
+  thrown in /Users/fredrevillon/Local Sites/planty-main/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php on line 242
