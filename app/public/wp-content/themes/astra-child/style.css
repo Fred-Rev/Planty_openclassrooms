@@ -139,7 +139,13 @@ a:focus, a:hover {
     flex-direction: column;
 }
 
+
 .bloc_equipe {
+  display: flex;
+  justify-content: center; 
+  gap: 10rem; 
+
+}.bloc_equipe {
     width: 50%;
     justify-content: center;
     position: relative;
@@ -151,8 +157,9 @@ a:focus, a:hover {
 
 .wp-image-130 {
     position: static;
-    margin-left: 70%;
+    margin-left: 80%;
     margin-top: -10%;
+    margin-bottom: -2%;
 }
 
 .form_nous_contacter{
@@ -170,6 +177,13 @@ a:focus, a:hover {
 .wpcf7 .wpcf7-form-control-wrap {
     padding-top: 5px;
 }
+.form_commande label,
+.form_commande legend {
+  color: #ffffff !important;
+}
+
+
+
 
 #wpcf7-f87-p88-o1 .wpcf7-submit {
     background-color: #E0B9B4 ;
@@ -193,7 +207,7 @@ a:focus, a:hover {
 }
 .wp-image-99 {
     position: static;
-    margin-left: 30%;
+    margin-left: 32%;
     margin-top: -15%;
 }
 
@@ -234,6 +248,7 @@ a:focus, a:hover {
 }
 
 .form_commande p {
+    color: white;
     display: flex;
     flex-direction: column;
     width: auto;
