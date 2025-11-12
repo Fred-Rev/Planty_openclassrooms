@@ -1,0 +1,35 @@
+cat > .gitignore <<'EOF'
+# macOS & IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Local (logs/temp)
+logs/
+**/*.log
+
+# Node / build caches éventuels
+node_modules/
+dist/
+build/
+
+# WordPress: caches/backup
+app/public/wp-content/cache/
+app/public/wp-content/backups/
+app/public/wp-content/upgrade/
+app/public/wp-content/advanced-cache.php
+
+# DB & dumps
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+*.tar
+*.zip
+
+# Configs locales (ne PAS versionner tes mots de passe)
+app/public/wp-config-local.php
+
+# Local by Flywheel internals (si présents)
+app/sql/   # dumps éventuels
+EOF

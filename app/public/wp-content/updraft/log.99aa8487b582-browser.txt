@@ -1,0 +1,149 @@
+0000.003 (R) [notice] Looking for db archive: file name: backup_2024-08-12-1743_Planty_ccc82cae08cc-db.gz
+0000.003 (R) [notice] Archive is expected to be size: 704.8 KB: OK
+0000.003 (R) [notice] Looking for plugins archive: file name: backup_2024-08-12-1743_Planty_ccc82cae08cc-plugins.zip
+0000.003 (R) [notice] Archive is expected to be size: 8699.1 KB: OK
+0000.003 (R) [notice] Looking for themes archive: file name: backup_2024-08-12-1743_Planty_ccc82cae08cc-themes.zip
+0000.003 (R) [notice] Archive is expected to be size: 6323.5 KB: OK
+0000.004 (R) [notice] Looking for uploads archive: file name: backup_2024-08-12-1743_Planty_ccc82cae08cc-uploads.zip
+0000.004 (R) [notice] Archive is expected to be size: 11170.6 KB: OK
+0000.004 (R) [notice] Looking for others archive: file name: backup_2024-08-12-1743_Planty_ccc82cae08cc-others.zip
+0000.004 (R) [notice] Archive is expected to be size: 1615 KB: OK
+0000.004 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.004 (R) [notice] Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-db.gz, 0.7 Mb)
+0000.005 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.012 (R) [notice] Enabling Maintenance mode&#8230;
+0000.014 (R) [notice] Backup of: http://planty.local
+0000.016 (R) [notice] Content URL: http://planty.local/wp-content
+0000.016 (R) [notice] Uploads URL: http://planty.local/wp-content/uploads
+0000.016 (R) [notice] Old table prefix: wp_
+0000.016 (R) [notice] Old ABSPATH: C:\Users\Pro\Local Sites\planty\app\public/
+0000.016 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.016 (R) [notice] Site information: multisite = 0
+0000.016 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.017 (R) [notice] New table prefix: 1c_
+0000.017 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: 1c_options
+0000.062 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.064 (R) [notice] Atomic restore: renaming new table (1c_options) to final table name (wp_options)
+0000.095 (R) [notice] Search and replacing table: wp_options: rows: 324
+0000.133 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: 1c_users
+0000.137 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.139 (R) [notice] Atomic restore: renaming new table (1c_users) to final table name (wp_users)
+0000.141 (R) [notice] Search and replacing table: wp_users: rows: 1
+0000.141 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: 1c_usermeta
+0000.145 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.146 (R) [notice] Atomic restore: renaming new table (1c_usermeta) to final table name (wp_usermeta)
+0000.148 (R) [notice] Search and replacing table: wp_usermeta: rows: 23
+0000.148 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: 1c_commentmeta
+0000.150 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.152 (R) [notice] Atomic restore: renaming new table (1c_commentmeta) to final table name (wp_commentmeta)
+0000.153 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0000.154 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: 1c_comments
+0000.158 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.159 (R) [notice] Atomic restore: renaming new table (1c_comments) to final table name (wp_comments)
+0000.161 (R) [notice] Search and replacing table: wp_comments: rows: 0
+0000.161 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: 1c_links
+0000.164 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.165 (R) [notice] Atomic restore: renaming new table (1c_links) to final table name (wp_links)
+0000.168 (R) [notice] Search and replacing table: wp_links: rows: 0
+0000.168 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: 1c_postmeta
+0000.175 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.176 (R) [notice] Atomic restore: renaming new table (1c_postmeta) to final table name (wp_postmeta)
+0000.178 (R) [notice] Search and replacing table: wp_postmeta: rows: 6
+0000.179 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: 1c_posts
+0000.218 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0000.219 (R) [notice] Atomic restore: renaming new table (1c_posts) to final table name (wp_posts)
+0000.222 (R) [notice] Search and replacing table: wp_posts: rows: 272
+0000.290 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: 1c_term_relationships
+0000.293 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0000.294 (R) [notice] Atomic restore: renaming new table (1c_term_relationships) to final table name (wp_term_relationships)
+0000.295 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0000.295 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: 1c_term_taxonomy
+0000.298 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0000.299 (R) [notice] Atomic restore: renaming new table (1c_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.301 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 7
+0000.301 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: 1c_termmeta
+0000.304 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0000.305 (R) [notice] Atomic restore: renaming new table (1c_termmeta) to final table name (wp_termmeta)
+0000.307 (R) [notice] Search and replacing table: wp_termmeta: rows: 0
+0000.307 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: 1c_terms
+0000.310 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0000.312 (R) [notice] Atomic restore: renaming new table (1c_terms) to final table name (wp_terms)
+0000.314 (R) [notice] Search and replacing table: wp_terms: rows: 7
+0000.314 (R) [notice] Processing table (InnoDB):  wp_nextend2_image_storage - will restore as: 1c_nextend2_image_storage
+0000.317 (R) [notice] Atomic restore: dropping original table (wp_nextend2_image_storage)
+0000.317 (R) [notice] Database queries processed: 50 in 0.31 seconds
+0000.317 (R) [notice] Atomic restore: renaming new table (1c_nextend2_image_storage) to final table name (wp_nextend2_image_storage)
+0000.318 (R) [notice] Search and replacing table: wp_nextend2_image_storage: rows: 3
+0000.319 (R) [notice] Processing table (InnoDB):  wp_nextend2_section_storage - will restore as: 1c_nextend2_section_storage
+0000.322 (R) [notice] Atomic restore: dropping original table (wp_nextend2_section_storage)
+0000.323 (R) [notice] Atomic restore: renaming new table (1c_nextend2_section_storage) to final table name (wp_nextend2_section_storage)
+0000.325 (R) [notice] Search and replacing table: wp_nextend2_section_storage: rows: 5
+0000.325 (R) [notice] Processing table (InnoDB):  wp_nextend2_smartslider3_generators - will restore as: 1c_nextend2_smartslider3_generators
+0000.327 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_generators)
+0000.327 (R) [notice] Atomic restore: renaming new table (1c_nextend2_smartslider3_generators) to final table name (wp_nextend2_smartslider3_generators)
+0000.329 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_generators: rows: 0
+0000.329 (R) [notice] Processing table (InnoDB):  wp_nextend2_smartslider3_sliders - will restore as: 1c_nextend2_smartslider3_sliders
+0000.333 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders)
+0000.333 (R) [notice] Atomic restore: renaming new table (1c_nextend2_smartslider3_sliders) to final table name (wp_nextend2_smartslider3_sliders)
+0000.335 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_sliders: rows: 2
+0000.336 (R) [notice] Processing table (InnoDB):  wp_nextend2_smartslider3_sliders_xref - will restore as: 1c_nextend2_smartslider3_sliders_xref
+0000.339 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders_xref)
+0000.339 (R) [notice] Atomic restore: renaming new table (1c_nextend2_smartslider3_sliders_xref) to final table name (wp_nextend2_smartslider3_sliders_xref)
+0000.341 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_sliders_xref: rows: 1
+0000.341 (R) [notice] Processing table (InnoDB):  wp_nextend2_smartslider3_slides - will restore as: 1c_nextend2_smartslider3_slides
+0000.346 (R) [notice] Disabling Maintenance mode&#8230;
+0000.346 (R) [notice] Atomic restore: dropping original table (wp_nextend2_smartslider3_slides)
+0000.346 (R) [notice] Atomic restore: renaming new table (1c_nextend2_smartslider3_slides) to final table name (wp_nextend2_smartslider3_slides)
+0000.349 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_slides: rows: 2
+0000.351 (R) [notice] Finished: lines processed: 66 in 0.34 seconds
+0000.351 (R) [notice] Cleaning up rubbish...
+0000.351 (R) [notice] Database search and replace: replace http://planty.local in backup dump with http://planty-astra.local
+0000.351 (R) [notice] Database search and replace: replace http://www.planty.local in backup dump with http://planty-astra.local
+0000.351 (R) [notice] Database search and replace: replace https://www.planty.local in backup dump with http://planty-astra.local
+0000.351 (R) [notice] Database search and replace: replace https://planty.local in backup dump with http://planty-astra.local
+0000.351 (R) [notice] Database search and replace: replace C:\Users\Pro\Local Sites\planty\app\public in backup dump with /Users/fredrevillon/Local Sites/planty-astra/app/public
+0000.352 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0000.352 (R) [notice] Search and replacing table: wp_comments: already done
+0000.352 (R) [notice] Search and replacing table: wp_links: already done
+0000.352 (R) [notice] Search and replacing table: wp_nextend2_image_storage: already done
+0000.352 (R) [notice] Search and replacing table: wp_nextend2_section_storage: already done
+0000.352 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_generators: already done
+0000.352 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_sliders: already done
+0000.352 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_sliders_xref: already done
+0000.352 (R) [notice] Search and replacing table: wp_nextend2_smartslider3_slides: already done
+0000.352 (R) [notice] Search and replacing table: wp_options: already done
+0000.352 (R) [notice] Search and replacing table: wp_postmeta: already done
+0000.352 (R) [notice] Search and replacing table: wp_posts: already done
+0000.352 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0000.352 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0000.352 (R) [notice] Search and replacing table: wp_termmeta: already done
+0000.352 (R) [notice] Search and replacing table: wp_terms: already done
+0000.352 (R) [notice] Search and replacing table: wp_usermeta: already done
+0000.352 (R) [notice] Search and replacing table: wp_users: already done
+0000.352 (R) [notice] Tables examined: 17
+0000.352 (R) [notice] Rows examined: 653
+0000.352 (R) [notice] Changes made: 244
+0000.352 (R) [notice] SQL update commands run: 242
+0000.352 (R) [notice] Errors: 0
+0000.352 (R) [notice] Time taken (seconds): 0.124
+0000.354 (R) [notice] Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-plugins.zip, 8.5 MB)
+0000.585 (R) [notice] Unzip progress: 1002 out of 1674 files (23.1 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php)
+0000.659 (R) [notice] Unzip progress: 1674 out of 1674 files (27.2 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0000.661 (R) [notice] Moving old data out of the way...
+0000.831 (R) [notice] Moving unpacked backup into place...
+0000.978 (R) [notice] Cleaning up rubbish...
+0000.980 (R) [notice] Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-themes.zip, 6.2 MB)
+0001.165 (R) [notice] Unzip progress: 1002 out of 1063 files (19.4 MB, themes/astra/inc/template-parts.php)
+0001.172 (R) [notice] Unzip progress: 1063 out of 1063 files (20.8 MB, themes/index.php)
+0001.173 (R) [notice] Moving old data out of the way...
+0001.279 (R) [notice] Moving unpacked backup into place...
+0001.380 (R) [notice] Cleaning up rubbish...
+0001.381 (R) [notice] Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-uploads.zip, 10.9 MB)
+0001.405 (R) [notice] Unzip progress: 90 out of 90 files (10.9 MB, uploads/wpcf7_uploads/.htaccess)
+0001.406 (R) [notice] Moving old data out of the way...
+0001.414 (R) [notice] Moving unpacked backup into place...
+0001.421 (R) [notice] Cleaning up rubbish...
+0001.422 (R) [notice] Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-others.zip, 1.6 MB)
+0001.445 (R) [notice] Unzip progress: 102 out of 102 files (5.7 MB, languages/themes/twentytwentytwo-fr_FR.po)
+0001.446 (R) [notice] Cleaning up rubbish...
+0001.449 (R) [notice] Restore successful!

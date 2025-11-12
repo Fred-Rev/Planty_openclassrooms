@@ -1,0 +1,193 @@
+0000.001 () Opened log file at time: Wed, 12 Nov 2025 01:48:13 +0000 on http://planty-astra.local
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.8.3 PHP: 8.2.27 (fpm-fcgi, Darwin MacBook-Pro-de-FREDERIC.local 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:30 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6020 arm64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.9M | 6M) multisite: N openssl: OpenSSL 3.4.1 11 Feb 2025 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 154706.2 MB
+0000.012 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Wed, 12 Nov 2025 01:48:13 +0000 on http://planty-astra.local
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.8.3 PHP: 8.2.27 (fpm-fcgi, Darwin MacBook-Pro-de-FREDERIC.local 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:30 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T6020 arm64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.1M | 8M) multisite: N openssl: OpenSSL 3.4.1 11 Feb 2025 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 154706.2 MB
+0000.001 () Ensuring WP_Filesystem is setup for a restore
+0000.002 () WP_Filesystem is setup and ready for a restore
+0000.002 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_nextend2_image_storage","wp_nextend2_section_storage","wp_nextend2_smartslider3_generators","wp_nextend2_smartslider3_sliders","wp_nextend2_smartslider3_sliders_xref","wp_nextend2_smartslider3_slides"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.003 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.004 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.004 () Entity: db
+0000.004 () restore_backup(backup_file=backup_2024-08-12-1743_Planty_ccc82cae08cc-db.gz, type=db, info=a:0:{}, last_one=)
+0000.004 () Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-db.gz, 0.7 Mb)
+0000.004 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.005 () Database successfully unpacked
+0000.005 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.005 () Using direct MySQL access; value of use_mysqli is: 1
+0000.005 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.012 () Max packet size: 1024 MB
+0000.012 () Entering maintenance mode
+0000.012 () Enabling Maintenance mode&#8230;
+0000.014 () Backup of: http://planty.local
+0000.016 () Content URL: http://planty.local/wp-content
+0000.016 () Uploads URL: http://planty.local/wp-content/uploads
+0000.016 () Old table prefix: wp_
+0000.016 () Old ABSPATH: C:\Users\Pro\Local Sites\planty\app\public/
+0000.016 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.016 () Site information: multisite=0
+0000.016 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.017 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.017 () New table prefix: 1c_
+0000.017 () Processing table (InnoDB): wp_options - will restore as: 1c_options
+0000.062 () Atomic restore: dropping original table (wp_options)
+0000.064 () Atomic restore: renaming new table (1c_options) to final table name (wp_options)
+0000.065 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.077 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.077 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.077 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.077 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.077 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.077 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.079 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.080 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.080 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.084 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.084 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.095 () Search and replacing table: wp_options: rows: 324
+0000.133 () Processing table (InnoDB): wp_users - will restore as: 1c_users
+0000.137 () Atomic restore: dropping original table (wp_users)
+0000.139 () Atomic restore: renaming new table (1c_users) to final table name (wp_users)
+0000.141 () Search and replacing table: wp_users: rows: 1
+0000.141 () Processing table (InnoDB): wp_usermeta - will restore as: 1c_usermeta
+0000.145 () Atomic restore: dropping original table (wp_usermeta)
+0000.146 () Atomic restore: renaming new table (1c_usermeta) to final table name (wp_usermeta)
+0000.148 () Search and replacing table: wp_usermeta: rows: 23
+0000.148 () Processing table (InnoDB): wp_commentmeta - will restore as: 1c_commentmeta
+0000.150 () Atomic restore: dropping original table (wp_commentmeta)
+0000.152 () Atomic restore: renaming new table (1c_commentmeta) to final table name (wp_commentmeta)
+0000.154 () Search and replacing table: wp_commentmeta: rows: 0
+0000.154 () Processing table (InnoDB): wp_comments - will restore as: 1c_comments
+0000.158 () Atomic restore: dropping original table (wp_comments)
+0000.159 () Atomic restore: renaming new table (1c_comments) to final table name (wp_comments)
+0000.161 () Search and replacing table: wp_comments: rows: 0
+0000.161 () Processing table (InnoDB): wp_links - will restore as: 1c_links
+0000.164 () Atomic restore: dropping original table (wp_links)
+0000.165 () Atomic restore: renaming new table (1c_links) to final table name (wp_links)
+0000.168 () Search and replacing table: wp_links: rows: 0
+0000.168 () Processing table (InnoDB): wp_postmeta - will restore as: 1c_postmeta
+0000.175 () Atomic restore: dropping original table (wp_postmeta)
+0000.176 () Atomic restore: renaming new table (1c_postmeta) to final table name (wp_postmeta)
+0000.178 () Search and replacing table: wp_postmeta: rows: 6
+0000.179 () Processing table (InnoDB): wp_posts - will restore as: 1c_posts
+0000.218 () Atomic restore: dropping original table (wp_posts)
+0000.219 () Atomic restore: renaming new table (1c_posts) to final table name (wp_posts)
+0000.221 () Skipping search/replace on GUID column in posts table
+0000.222 () Search and replacing table: wp_posts: rows: 272
+0000.290 () Processing table (InnoDB): wp_term_relationships - will restore as: 1c_term_relationships
+0000.293 () Atomic restore: dropping original table (wp_term_relationships)
+0000.294 () Atomic restore: renaming new table (1c_term_relationships) to final table name (wp_term_relationships)
+0000.295 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0000.295 () Processing table (InnoDB): wp_term_taxonomy - will restore as: 1c_term_taxonomy
+0000.298 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.299 () Atomic restore: renaming new table (1c_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.301 () Search and replacing table: wp_term_taxonomy: rows: 7
+0000.301 () Processing table (InnoDB): wp_termmeta - will restore as: 1c_termmeta
+0000.304 () Atomic restore: dropping original table (wp_termmeta)
+0000.305 () Atomic restore: renaming new table (1c_termmeta) to final table name (wp_termmeta)
+0000.307 () Search and replacing table: wp_termmeta: rows: 0
+0000.307 () Processing table (InnoDB): wp_terms - will restore as: 1c_terms
+0000.310 () Atomic restore: dropping original table (wp_terms)
+0000.312 () Atomic restore: renaming new table (1c_terms) to final table name (wp_terms)
+0000.314 () Search and replacing table: wp_terms: rows: 7
+0000.314 () Processing table (InnoDB): wp_nextend2_image_storage - will restore as: 1c_nextend2_image_storage
+0000.317 () Atomic restore: dropping original table (wp_nextend2_image_storage)
+0000.317 () Database queries processed: 50 in 0.31 seconds
+0000.317 () Atomic restore: renaming new table (1c_nextend2_image_storage) to final table name (wp_nextend2_image_storage)
+0000.318 () Search and replacing table: wp_nextend2_image_storage: rows: 3
+0000.319 () Processing table (InnoDB): wp_nextend2_section_storage - will restore as: 1c_nextend2_section_storage
+0000.322 () Atomic restore: dropping original table (wp_nextend2_section_storage)
+0000.323 () Atomic restore: renaming new table (1c_nextend2_section_storage) to final table name (wp_nextend2_section_storage)
+0000.325 () Search and replacing table: wp_nextend2_section_storage: rows: 5
+0000.325 () Processing table (InnoDB): wp_nextend2_smartslider3_generators - will restore as: 1c_nextend2_smartslider3_generators
+0000.327 () Atomic restore: dropping original table (wp_nextend2_smartslider3_generators)
+0000.327 () Atomic restore: renaming new table (1c_nextend2_smartslider3_generators) to final table name (wp_nextend2_smartslider3_generators)
+0000.329 () Search and replacing table: wp_nextend2_smartslider3_generators: rows: 0
+0000.329 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders - will restore as: 1c_nextend2_smartslider3_sliders
+0000.333 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders)
+0000.333 () Atomic restore: renaming new table (1c_nextend2_smartslider3_sliders) to final table name (wp_nextend2_smartslider3_sliders)
+0000.335 () Search and replacing table: wp_nextend2_smartslider3_sliders: rows: 2
+0000.336 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref - will restore as: 1c_nextend2_smartslider3_sliders_xref
+0000.339 () Atomic restore: dropping original table (wp_nextend2_smartslider3_sliders_xref)
+0000.339 () Atomic restore: renaming new table (1c_nextend2_smartslider3_sliders_xref) to final table name (wp_nextend2_smartslider3_sliders_xref)
+0000.341 () Search and replacing table: wp_nextend2_smartslider3_sliders_xref: rows: 1
+0000.341 () Processing table (InnoDB): wp_nextend2_smartslider3_slides - will restore as: 1c_nextend2_smartslider3_slides
+0000.346 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0000.346 () Unlocking database and leaving maintenance mode
+0000.346 () Disabling Maintenance mode&#8230;
+0000.346 () Atomic restore: dropping original table (wp_nextend2_smartslider3_slides)
+0000.346 () Atomic restore: renaming new table (1c_nextend2_smartslider3_slides) to final table name (wp_nextend2_smartslider3_slides)
+0000.349 () Search and replacing table: wp_nextend2_smartslider3_slides: rows: 2
+0000.351 () Finished: lines processed: 66 in 0.34 seconds
+0000.351 () Cleaning up rubbish...
+0000.351 () Begin search and replace (updraftplus_restored_db)
+0000.351 () [Database-replace-site-url] Database: search and replace site URL
+0000.351 () Database search and replace: replace http://planty.local in backup dump with http://planty-astra.local
+0000.351 () Database search and replace: replace http://www.planty.local in backup dump with http://planty-astra.local
+0000.351 () Database search and replace: replace https://www.planty.local in backup dump with http://planty-astra.local
+0000.351 () Database search and replace: replace https://planty.local in backup dump with http://planty-astra.local
+0000.351 () Database search and replace: replace C:\Users\Pro\Local Sites\planty\app\public in backup dump with /Users/fredrevillon/Local Sites/planty-astra/app/public
+0000.352 () Search and replacing table: wp_commentmeta: already done
+0000.352 () Search and replacing table: wp_comments: already done
+0000.352 () Search and replacing table: wp_links: already done
+0000.352 () Search and replacing table: wp_nextend2_image_storage: already done
+0000.352 () Search and replacing table: wp_nextend2_section_storage: already done
+0000.352 () Search and replacing table: wp_nextend2_smartslider3_generators: already done
+0000.352 () Search and replacing table: wp_nextend2_smartslider3_sliders: already done
+0000.352 () Search and replacing table: wp_nextend2_smartslider3_sliders_xref: already done
+0000.352 () Search and replacing table: wp_nextend2_smartslider3_slides: already done
+0000.352 () Search and replacing table: wp_options: already done
+0000.352 () Search and replacing table: wp_postmeta: already done
+0000.352 () Search and replacing table: wp_posts: already done
+0000.352 () Search and replacing table: wp_term_relationships: already done
+0000.352 () Search and replacing table: wp_term_taxonomy: already done
+0000.352 () Search and replacing table: wp_termmeta: already done
+0000.352 () Search and replacing table: wp_terms: already done
+0000.352 () Search and replacing table: wp_usermeta: already done
+0000.352 () Search and replacing table: wp_users: already done
+0000.354 () Entity: plugins
+0000.354 () restore_backup(backup_file=backup_2024-08-12-1743_Planty_ccc82cae08cc-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:74:"/Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.354 () Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-plugins.zip, 8.5 MB)
+0000.355 () Unzipping backup_2024-08-12-1743_Planty_ccc82cae08cc-plugins.zip to /Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content/upgrade/506f0c35/ using UpdraftPlus_ZipArchive, starting index 0
+0000.585 () Unzip progress: 1002 out of 1674 files (23.1 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php)
+0000.659 () Unzip progress: 1674 out of 1674 files (27.2 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0000.661 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.661 () Moving old data: can potentially use wp_filesystem method / -old
+0000.661 () Moving old data out of the way...
+0000.830 () Top-level entities being moved: .DS_Store, index.php, contact-form-7, child-theme-configurator, updraftplus
+0000.831 () Moving unpacked backup into place...
+0000.978 () Top-level entities being moved: index.php, contact-form-7, child-theme-configurator, updraftplus
+0000.978 () Cleaning up rubbish...
+0000.980 () Entity: themes
+0000.980 () restore_backup(backup_file=backup_2024-08-12-1743_Planty_ccc82cae08cc-themes.zip, type=themes, info=a:3:{s:4:"path";s:73:"/Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0000.980 () Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-themes.zip, 6.2 MB)
+0000.980 () Unzipping backup_2024-08-12-1743_Planty_ccc82cae08cc-themes.zip to /Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content/upgrade/edfb601f/ using UpdraftPlus_ZipArchive, starting index 0
+0001.165 () Unzip progress: 1002 out of 1063 files (19.4 MB, themes/astra/inc/template-parts.php)
+0001.172 () Unzip progress: 1063 out of 1063 files (20.8 MB, themes/index.php)
+0001.173 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.173 () Moving old data: can potentially use wp_filesystem method / -old
+0001.173 () Moving old data out of the way...
+0001.279 () Top-level entities being moved: .DS_Store, index.php, astra-child, astra
+0001.279 () Moving unpacked backup into place...
+0001.380 () Top-level entities being moved: index.php, astra-child, astra
+0001.380 () Cleaning up rubbish...
+0001.381 () Entity: uploads
+0001.381 () restore_backup(backup_file=backup_2024-08-12-1743_Planty_ccc82cae08cc-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:74:"/Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0001.381 () Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-uploads.zip, 10.9 MB)
+0001.381 () Unzipping backup_2024-08-12-1743_Planty_ccc82cae08cc-uploads.zip to /Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content/upgrade/4620c506/ using UpdraftPlus_ZipArchive, starting index 0
+0001.405 () Unzip progress: 90 out of 90 files (10.9 MB, uploads/wpcf7_uploads/.htaccess)
+0001.406 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.406 () Moving old data: can potentially use wp_filesystem method / -old
+0001.406 () Moving old data out of the way...
+0001.414 () Moving unpacked backup into place...
+0001.421 () Cleaning up rubbish...
+0001.422 () Entity: others
+0001.422 () restore_backup(backup_file=backup_2024-08-12-1743_Planty_ccc82cae08cc-others.zip, type=others, info=a:2:{s:4:"path";s:66:"/Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0001.422 () Unpacking backup... (backup_2024-08-12-1743_Planty_ccc82cae08cc-others.zip, 1.6 MB)
+0001.422 () Unzipping backup_2024-08-12-1743_Planty_ccc82cae08cc-others.zip to /Users/fredrevillon/Local Sites/planty-astra/app/public/wp-content/upgrade/5a2b1ad8/ using UpdraftPlus_ZipArchive, starting index 0
+0001.445 () Unzip progress: 102 out of 102 files (5.7 MB, languages/themes/twentytwentytwo-fr_FR.po)
+0001.446 () Cleaning up rubbish...
+0001.449 () Restore successful!
+0001.449 () Restore successful

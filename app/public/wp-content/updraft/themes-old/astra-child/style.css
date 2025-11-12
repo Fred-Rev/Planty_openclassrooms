@@ -1,0 +1,439 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.7.3.1721722311
+Updated: 2024-07-23 08:11:51
+
+*/
+#masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
+    padding-right: 0;
+}
+
+.ast-plain-container, .ast-page-builder-template {
+    background-color: white;
+}
+
+a:focus, a:hover {
+    color: black;
+}
+.radius_accueil_top {
+    border-radius: 0% 0% 50% 50% / 0% 0% 7% 7%;
+}
+.commander_menu {
+    background-color: #dc9f96;
+    font-size: 16px;
+    font-weight: 700;
+    height: 80px;
+    width: 236px;
+}
+
+#menu-item-72 a {
+    color: white;
+}
+.menu-link {
+    color : black;
+    justify-content: center;
+}
+#menu-item-72 a:hover {
+    background-color: #C02E44 ;
+}
+.site-header {
+    background-color: white;
+}
+.bloc_img {
+    gap: 0;
+}
+
+.wp-image-55 {
+    position: static;
+    margin-left: 60%;
+}
+
+.wp-image-53 {
+    position: relative;
+}
+.wp-image-54 {
+    position: static;
+    margin-left: -60%;
+}
+
+.p_accueil {
+    width: 50%;
+}
+
+#gout_index {
+    border-radius: 0% 0% 50% 50% / 0% 0% 3% 3%;
+}
+
+.gout_gauche {
+    display: flex;
+    justify-content: end;
+}
+
+.gout_droite {
+    display: flex;
+    justify-content: start;
+}
+#gout_index img {
+    width: 75%;
+}
+
+#bouton_gout {
+    width: 198px;
+    height: 55px;
+}
+
+#bouton_gout a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#bouton_gout a:hover{
+    background-color: #C02E44 !important;
+}
+
+#avis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+#avis_perso {
+    width: 33%;
+}
+
+#avis_perso figure {
+    width: 50%;
+}
+
+#avis_perso img {
+    object-fit: unset;
+}
+
+.text_avis {
+    width: 100%;
+}
+
+
+/* Nous contacter */
+
+.nous_rencontrer_radius {
+    border-radius: 0px 0px 400px 400px/ 0px 0px 50px 50px !important;
+}
+.wp-image-219 {
+    position: static;
+    margin-left: 9%;
+    margin-bottom: -8%;
+    margin-top: 3%;
+}
+
+#equipe {
+    flex-direction: column;
+}
+
+.bloc_equipe {
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.image_equipe {
+    width: 100%;
+}
+
+.wp-image-130 {
+    position: static;
+    margin-left: 70%;
+    margin-top: -10%;
+}
+
+.form_nous_contacter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.width_label {
+    width: 383px;
+    display: block;
+    font-size: 20px;
+}
+.wpcf7 .wpcf7-form-control-wrap {
+    padding-top: 5px;
+}
+
+#wpcf7-f87-p88-o1 .wpcf7-submit {
+    background-color: #E0B9B4 ;
+    color: white ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    line-height: 37px ;
+    text-align: center;
+    width: 198px ;
+    height: 55px ;
+    display: flex;
+    border-radius: 5px ;
+}
+#wpcf7-f87-p88-o1 .wpcf7-submit:hover{
+    background-color: #C02E44;
+}
+
+.wpcf7-response-output {
+    position: relative;
+    color: red;
+    margin: 0 auto 50px auto !important;
+    background-color: white;
+    width: fit-content;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    color: green;
+}
+
+.image_form_contact {
+    margin-top: -8%;
+    width: 100%;
+}
+.wp-image-99 {
+    position: static;
+    margin-left: 30%;
+    margin-top: -15%;
+}
+
+.entry-content[ast-blocks-layout] > figure {
+    margin: 0;
+}
+.ast-plain-container.ast-no-sidebar #primary{
+    margin: 0;
+}
+#page .site-content {
+    flex-grow: unset;
+}
+
+.canette_bottom {
+    background-color: #ECE2DA;
+}
+/* Commande */
+.page-id-116 {
+    background-color: #3B8E46 ;
+}
+
+.page-id-116 h1 {
+    padding-top: 50px;
+}
+
+.ligne_separation {
+    background-color: white;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+.form_commande h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    min-height: 80px;
+    display: flex;
+}
+
+.form_commande p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+}
+
+#wpcf7-f115-p116-o1 .spinbox {
+    width: 39px ;
+    height: 56px ;
+    padding: 0;
+    text-align: center;
+}
+
+.form_commande {
+    width: 70%;
+  margin: auto;
+}
+
+.parfum_commande {
+    display: flex;
+    gap: 20px;
+}
+
+#wpcf7-f115-p116-o1 .form_infos {
+    border-radius: 7px;
+}
+
+.form_bottom {
+    column-gap: 50px;
+    column-rule: 1px solid white;
+    column-count: 2;
+}
+
+.form_bottom p {
+    margin: 0;
+}
+
+#wpcf7-f115-p116-o1 .wpcf7-form-control-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+#wpcf7-f115-p116-o1 .wpcf7-submit {
+    background-color: #E0B9B4 ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    margin-top: 20px;
+}
+#wpcf7-f115-p116-o1 .wpcf7-submit:hover {
+    background-color: #C02E44 ;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    background: none;
+    width: 0;
+    border: none;
+}
+
+input[type="number"] {
+-moz-appearance: textfield;
+}
+
+.parfum {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_commande input {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.form_commande input.spinbox {
+    width: 39px;
+    height: 56px;
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+input.form_infos {
+    border-radius: 7px;
+    margin: 5px 0;
+    width: 383px;
+    height: 71px;
+    max-width: 100%;
+}
+
+.btn_centre {
+    display: flex;
+    justify-content: center;
+}
+
+div.btn_centre button {
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+.site-primary-footer-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width : 320px) and (max-width: 768px) {
+    .h1_accueil {
+        font-size: 30px !important;
+    }
+
+    #ast-hf-mobile-menu .commander_menu {
+        font-weight: 400;
+        background-color: #dc9f96;
+    }
+    .form_nous_contacter {
+        margin-bottom: 0 !important;
+    }
+    .image_form_contact {
+        display: none !important;
+    }
+    .bloc_avis {
+        display: flex;
+        flex-direction: column;
+    }
+    #avis_perso {
+        flex-direction: column;
+        width: 100%;
+    }
+    #avis_perso figure {
+        width: 30%;
+    }
+    .text_avis {
+        text-align: center;
+    }
+    .bloc_gout {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .gout_droite, .gout_gauche {
+        justify-content: center;
+    }
+    .bloc_equipe {
+        flex-direction: column;
+    }
+    .wp-image-130 {
+        display: none;
+    }
+    .form_nous_contacter p {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .centrer_bouton p {
+        display: block;
+        width: 100%;
+    }
+    .wp-image-95 {
+        display: none;
+    }
+    .form_bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form_commande h2 {
+        justify-content: center;
+        text-align: center;
+    }
+    input.form_infos {
+        width: 100%;
+    }
+
+    .livraison, .vos_infos {
+        width: 100%;
+    }
+    .livraison h2{
+        margin-top: 10%;
+        min-height: 0;
+    }
+    .site-primary-footer-wrap {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
